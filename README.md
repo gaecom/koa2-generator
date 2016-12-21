@@ -1,12 +1,9 @@
-## generator-k
+<<<<<<< HEAD
+## generator-koa2oa2
 
-generator-k 是 简单的koa项目工程生成器，带有经过筛选的优秀中间件，比如
+generator-koa2 是 简单的koa项目工程生成器，比如
 
-* koa-router ：路由中间件
-* koa-generic-session ： session中间件
-* koa-bodyparser ：body 解析中间件
-* koa-onerror ：错误处理中间件
-* ...
+
 
 可以选择基于的数据库 redis 或 mongodb，默认为 none。
 
@@ -14,11 +11,11 @@ generator-k 是 简单的koa项目工程生成器，带有经过筛选的优秀�
 
 ### 安装
 
-    npm install -g yo generator-k
+    npm install -g yo generator-koa2
 
 ### 生成工程
 
-    yo k
+    yo koa2
     
 生成的目录结构如下：
 
@@ -37,7 +34,7 @@ generator-k 是 简单的koa项目工程生成器，带有经过筛选的优秀�
     ├── test
     |   └── index-router-spec.js
     ├── view
-    |   ├── index.xtpl
+    |   ├── index.html
     |   └── layout
     ├── app.js
     └── package.json
@@ -60,3 +57,7 @@ NodeJS 必须 >= v0.11.3
 ### 测试用例
 
     npm test
+=======
+
+
+
